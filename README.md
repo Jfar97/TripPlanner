@@ -1,7 +1,7 @@
 # Trip Planner 
 Trip Planner is an IOS app designed to give users both comprehensive and easy-to-use planning capabilities for various trips they may take. It allows users to select dates and a main location for the trip, which is saved as one of many trips a user can have. Within a trip there are six subtypes of items that can be added: accommodations, activities, dining locations, events, points of interest, and transportation. Users can either add them to the subtype tab of the trip manually, or can use the search option to search around the location of the trip and add items found on the map as one of the subtypes. Any locations attached to the trip or a subitem of a trip can have the details of the location viewed as well as a street view, which can be clicked for a navigable street view functionality to look around the actual location.
 
-[![Static Badge](https://img.shields.io/badge/SwiftUI-blue?style=flat&logo=Swift&logoColor=blue&logoSize=large&labelColor=black)](#) [![Static Badge](https://img.shields.io/badge/SwiftData-silver?style=flat&logo=Swift&logoColor=silver&logoSize=large&labelColor=black)](#)
+[![Static Badge](https://img.shields.io/badge/SwiftUI-blue?style=flat&logo=Swift&logoColor=blue&logoSize=large&labelColor=black)](#) [![Static Badge](https://img.shields.io/badge/SwiftData-silver?style=flat&logo=Swift&logoColor=silver&logoSize=large&labelColor=black)](#) [![Static Badge](https://img.shields.io/badge/API%20Integration-%23ff3300?style=flat)](#)
 
 
 File directories can be found inside of Trip_Planner\Trip_Planner_2.0\Trip_Planner_2.0
