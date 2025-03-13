@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		401B53882CD314BF005867AB /* AddAccomodationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53802CD314BF005867AB /* AddAccomodationView.swift */; };
+		401B53892CD314BF005867AB /* AddActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53812CD314BF005867AB /* AddActivityView.swift */; };
+		401B538A2CD314BF005867AB /* AddDiningLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53822CD314BF005867AB /* AddDiningLocationView.swift */; };
+		401B538B2CD314BF005867AB /* AddEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53832CD314BF005867AB /* AddEventView.swift */; };
+		401B538C2CD314BF005867AB /* AddPointOfInterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53842CD314BF005867AB /* AddPointOfInterestView.swift */; };
+		401B538D2CD314BF005867AB /* AddTransportationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53852CD314BF005867AB /* AddTransportationView.swift */; };
+		401B538E2CD314BF005867AB /* AddTripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53862CD314BF005867AB /* AddTripView.swift */; };
+		401B53932CD314DE005867AB /* StreetViewImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B538F2CD314DE005867AB /* StreetViewImage.swift */; };
+		401B53942CD314DE005867AB /* StreetViewImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53902CD314DE005867AB /* StreetViewImageData.swift */; };
+		401B53952CD314DE005867AB /* StreetViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53912CD314DE005867AB /* StreetViewService.swift */; };
+		401B539E2CD31500005867AB /* AccommodationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53962CD31500005867AB /* AccommodationView.swift */; };
+		401B539F2CD31500005867AB /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53972CD31500005867AB /* ActivityView.swift */; };
+		401B53A02CD31500005867AB /* DiningLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53982CD31500005867AB /* DiningLocationView.swift */; };
+		401B53A12CD31500005867AB /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53992CD31500005867AB /* EventView.swift */; };
+		401B53A22CD31500005867AB /* PointOfInterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B539A2CD31500005867AB /* PointOfInterestView.swift */; };
+		401B53A32CD31500005867AB /* TransportationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B539B2CD31500005867AB /* TransportationView.swift */; };
+		401B53A42CD31500005867AB /* TripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B539C2CD31500005867AB /* TripView.swift */; };
+		401B53AC2CD31519005867AB /* EditAccommodationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53A52CD31519005867AB /* EditAccommodationView.swift */; };
+		401B53AD2CD31519005867AB /* EditActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53A62CD31519005867AB /* EditActivityView.swift */; };
+		401B53AE2CD31519005867AB /* EditDiningLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53A72CD31519005867AB /* EditDiningLocationView.swift */; };
+		401B53AF2CD31519005867AB /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53A82CD31519005867AB /* EditEventView.swift */; };
+		401B53B02CD31519005867AB /* EditPointOfInterestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53A92CD31519005867AB /* EditPointOfInterestView.swift */; };
+		401B53B12CD31519005867AB /* EditTransportationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53AA2CD31519005867AB /* EditTransportationView.swift */; };
+		401B53B72CD31529005867AB /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53B22CD31529005867AB /* LocationDetailView.swift */; };
+		401B53B82CD31529005867AB /* LocationSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53B32CD31529005867AB /* LocationSelectionView.swift */; };
+		401B53B92CD31529005867AB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53B42CD31529005867AB /* MapView.swift */; };
+		401B53BA2CD31529005867AB /* SearchLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53B52CD31529005867AB /* SearchLocationModel.swift */; };
+		401B53FD2CD31550005867AB /* TripPlannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401B53FB2CD31550005867AB /* TripPlannerViewModel.swift */; };
+		402A10F72CEEF76F009FCACA /* InteractiveStreetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A10F62CEEF76F009FCACA /* InteractiveStreetView.swift */; };
+		402F86102CD306D3000B4240 /* Trip_Planner_2_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F860F2CD306D3000B4240 /* Trip_Planner_2_0App.swift */; };
+		402F86122CD306D3000B4240 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86112CD306D3000B4240 /* ContentView.swift */; };
+		402F86142CD306D4000B4240 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F86132CD306D4000B4240 /* Assets.xcassets */; };
+		402F86172CD306D4000B4240 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 402F86162CD306D4000B4240 /* Preview Assets.xcassets */; };
+		402F863F2CD30707000B4240 /* AccommodationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86202CD30707000B4240 /* AccommodationModel.swift */; };
+		402F86402CD30707000B4240 /* ActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86212CD30707000B4240 /* ActivityModel.swift */; };
+		402F86412CD30707000B4240 /* DiningLocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86222CD30707000B4240 /* DiningLocationModel.swift */; };
+		402F86422CD30707000B4240 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86232CD30707000B4240 /* EventModel.swift */; };
+		402F86432CD30707000B4240 /* PointOfInterestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86242CD30707000B4240 /* PointOfInterestModel.swift */; };
+		402F86462CD30707000B4240 /* TransportationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86272CD30707000B4240 /* TransportationModel.swift */; };
+		402F86472CD30707000B4240 /* TripModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402F86282CD30707000B4240 /* TripModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		401B53802CD314BF005867AB /* AddAccomodationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAccomodationView.swift; sourceTree = "<group>"; };
+		401B53812CD314BF005867AB /* AddActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActivityView.swift; sourceTree = "<group>"; };
+		401B53822CD314BF005867AB /* AddDiningLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDiningLocationView.swift; sourceTree = "<group>"; };
+		401B53832CD314BF005867AB /* AddEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventView.swift; sourceTree = "<group>"; };
+		401B53842CD314BF005867AB /* AddPointOfInterestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPointOfInterestView.swift; sourceTree = "<group>"; };
+		401B53852CD314BF005867AB /* AddTransportationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTransportationView.swift; sourceTree = "<group>"; };
+		401B53862CD314BF005867AB /* AddTripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTripView.swift; sourceTree = "<group>"; };
+		401B538F2CD314DE005867AB /* StreetViewImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetViewImage.swift; sourceTree = "<group>"; };
+		401B53902CD314DE005867AB /* StreetViewImageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetViewImageData.swift; sourceTree = "<group>"; };
+		401B53912CD314DE005867AB /* StreetViewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreetViewService.swift; sourceTree = "<group>"; };
+		401B53962CD31500005867AB /* AccommodationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccommodationView.swift; sourceTree = "<group>"; };
+		401B53972CD31500005867AB /* ActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		401B53982CD31500005867AB /* DiningLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningLocationView.swift; sourceTree = "<group>"; };
+		401B53992CD31500005867AB /* EventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		401B539A2CD31500005867AB /* PointOfInterestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointOfInterestView.swift; sourceTree = "<group>"; };
+		401B539B2CD31500005867AB /* TransportationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationView.swift; sourceTree = "<group>"; };
+		401B539C2CD31500005867AB /* TripView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripView.swift; sourceTree = "<group>"; };
+		401B53A52CD31519005867AB /* EditAccommodationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAccommodationView.swift; sourceTree = "<group>"; };
+		401B53A62CD31519005867AB /* EditActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditActivityView.swift; sourceTree = "<group>"; };
+		401B53A72CD31519005867AB /* EditDiningLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDiningLocationView.swift; sourceTree = "<group>"; };
+		401B53A82CD31519005867AB /* EditEventView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		401B53A92CD31519005867AB /* EditPointOfInterestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPointOfInterestView.swift; sourceTree = "<group>"; };
+		401B53AA2CD31519005867AB /* EditTransportationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTransportationView.swift; sourceTree = "<group>"; };
+		401B53B22CD31529005867AB /* LocationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		401B53B32CD31529005867AB /* LocationSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSelectionView.swift; sourceTree = "<group>"; };
+		401B53B42CD31529005867AB /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		401B53B52CD31529005867AB /* SearchLocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchLocationModel.swift; sourceTree = "<group>"; };
+		401B53FB2CD31550005867AB /* TripPlannerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripPlannerViewModel.swift; sourceTree = "<group>"; };
+		402A10F62CEEF76F009FCACA /* InteractiveStreetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveStreetView.swift; sourceTree = "<group>"; };
+		402F860C2CD306D3000B4240 /* Trip_Planner_2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trip_Planner_2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		402F860F2CD306D3000B4240 /* Trip_Planner_2_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip_Planner_2_0App.swift; sourceTree = "<group>"; };
+		402F86112CD306D3000B4240 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		402F86132CD306D4000B4240 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		402F86162CD306D4000B4240 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		402F86202CD30707000B4240 /* AccommodationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccommodationModel.swift; sourceTree = "<group>"; };
+		402F86212CD30707000B4240 /* ActivityModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityModel.swift; sourceTree = "<group>"; };
+		402F86222CD30707000B4240 /* DiningLocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiningLocationModel.swift; sourceTree = "<group>"; };
+		402F86232CD30707000B4240 /* EventModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		402F86242CD30707000B4240 /* PointOfInterestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointOfInterestModel.swift; sourceTree = "<group>"; };
+		402F86272CD30707000B4240 /* TransportationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportationModel.swift; sourceTree = "<group>"; };
+		402F86282CD30707000B4240 /* TripModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		402F86092CD306D3000B4240 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		401B53872CD314BF005867AB /* Add Views */ = {
+			isa = PBXGroup;
+			children = (
+				401B53802CD314BF005867AB /* AddAccomodationView.swift */,
+				401B53812CD314BF005867AB /* AddActivityView.swift */,
+				401B53822CD314BF005867AB /* AddDiningLocationView.swift */,
+				401B53832CD314BF005867AB /* AddEventView.swift */,
+				401B53842CD314BF005867AB /* AddPointOfInterestView.swift */,
+				401B53852CD314BF005867AB /* AddTransportationView.swift */,
+				401B53862CD314BF005867AB /* AddTripView.swift */,
+			);
+			path = "Add Views";
+			sourceTree = "<group>";
+		};
+		401B53922CD314DE005867AB /* API */ = {
+			isa = PBXGroup;
+			children = (
+				401B538F2CD314DE005867AB /* StreetViewImage.swift */,
+				401B53902CD314DE005867AB /* StreetViewImageData.swift */,
+				401B53912CD314DE005867AB /* StreetViewService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		401B539D2CD31500005867AB /* Detail Views */ = {
+			isa = PBXGroup;
+			children = (
+				401B53962CD31500005867AB /* AccommodationView.swift */,
+				401B53972CD31500005867AB /* ActivityView.swift */,
+				401B53982CD31500005867AB /* DiningLocationView.swift */,
+				401B53992CD31500005867AB /* EventView.swift */,
+				401B539A2CD31500005867AB /* PointOfInterestView.swift */,
+				401B539B2CD31500005867AB /* TransportationView.swift */,
+				401B539C2CD31500005867AB /* TripView.swift */,
+			);
+			path = "Detail Views";
+			sourceTree = "<group>";
+		};
+		401B53AB2CD31519005867AB /* Edit Views */ = {
+			isa = PBXGroup;
+			children = (
+				401B53A52CD31519005867AB /* EditAccommodationView.swift */,
+				401B53A62CD31519005867AB /* EditActivityView.swift */,
+				401B53A72CD31519005867AB /* EditDiningLocationView.swift */,
+				401B53A82CD31519005867AB /* EditEventView.swift */,
+				401B53A92CD31519005867AB /* EditPointOfInterestView.swift */,
+				401B53AA2CD31519005867AB /* EditTransportationView.swift */,
+			);
+			path = "Edit Views";
+			sourceTree = "<group>";
+		};
+		401B53B62CD31529005867AB /* Map Views */ = {
+			isa = PBXGroup;
+			children = (
+				401B53B22CD31529005867AB /* LocationDetailView.swift */,
+				401B53B32CD31529005867AB /* LocationSelectionView.swift */,
+				401B53B42CD31529005867AB /* MapView.swift */,
+				402A10F62CEEF76F009FCACA /* InteractiveStreetView.swift */,
+			);
+			path = "Map Views";
+			sourceTree = "<group>";
+		};
+		401B53FC2CD31550005867AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				401B53FB2CD31550005867AB /* TripPlannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		402F86032CD306D3000B4240 = {
+			isa = PBXGroup;
+			children = (
+				402F860E2CD306D3000B4240 /* Trip_Planner_2.0 */,
+				402F860D2CD306D3000B4240 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		402F860D2CD306D3000B4240 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				402F860C2CD306D3000B4240 /* Trip_Planner_2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		402F860E2CD306D3000B4240 /* Trip_Planner_2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				402F860F2CD306D3000B4240 /* Trip_Planner_2_0App.swift */,
+				402F86112CD306D3000B4240 /* ContentView.swift */,
+				401B53FC2CD31550005867AB /* ViewModel */,
+				401B53922CD314DE005867AB /* API */,
+				402F86292CD30707000B4240 /* Models */,
+				401B539D2CD31500005867AB /* Detail Views */,
+				401B53872CD314BF005867AB /* Add Views */,
+				401B53AB2CD31519005867AB /* Edit Views */,
+				401B53B62CD31529005867AB /* Map Views */,
+				402F86132CD306D4000B4240 /* Assets.xcassets */,
+				402F86152CD306D4000B4240 /* Preview Content */,
+			);
+			path = Trip_Planner_2.0;
+			sourceTree = "<group>";
+		};
+		402F86152CD306D4000B4240 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				402F86162CD306D4000B4240 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		402F86292CD30707000B4240 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				402F86282CD30707000B4240 /* TripModel.swift */,
+				402F86202CD30707000B4240 /* AccommodationModel.swift */,
+				402F86212CD30707000B4240 /* ActivityModel.swift */,
+				402F86222CD30707000B4240 /* DiningLocationModel.swift */,
+				402F86232CD30707000B4240 /* EventModel.swift */,
+				402F86242CD30707000B4240 /* PointOfInterestModel.swift */,
+				402F86272CD30707000B4240 /* TransportationModel.swift */,
+				401B53B52CD31529005867AB /* SearchLocationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		402F860B2CD306D3000B4240 /* Trip_Planner_2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 402F861A2CD306D4000B4240 /* Build configuration list for PBXNativeTarget "Trip_Planner_2.0" */;
+			buildPhases = (
+				402F86082CD306D3000B4240 /* Sources */,
+				402F86092CD306D3000B4240 /* Frameworks */,
+				402F860A2CD306D3000B4240 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trip_Planner_2.0;
+			productName = Trip_Planner_2.0;
+			productReference = 402F860C2CD306D3000B4240 /* Trip_Planner_2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		402F86042CD306D3000B4240 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					402F860B2CD306D3000B4240 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 402F86072CD306D3000B4240 /* Build configuration list for PBXProject "Trip_Planner_2.0" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 402F86032CD306D3000B4240;
+			productRefGroup = 402F860D2CD306D3000B4240 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				402F860B2CD306D3000B4240 /* Trip_Planner_2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		402F860A2CD306D3000B4240 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402F86172CD306D4000B4240 /* Preview Assets.xcassets in Resources */,
+				402F86142CD306D4000B4240 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402F86082CD306D3000B4240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				402A10F72CEEF76F009FCACA /* InteractiveStreetView.swift in Sources */,
+				401B53FD2CD31550005867AB /* TripPlannerViewModel.swift in Sources */,
+				401B53A02CD31500005867AB /* DiningLocationView.swift in Sources */,
+				402F86472CD30707000B4240 /* TripModel.swift in Sources */,
+				401B53882CD314BF005867AB /* AddAccomodationView.swift in Sources */,
+				401B53B72CD31529005867AB /* LocationDetailView.swift in Sources */,
+				401B53AE2CD31519005867AB /* EditDiningLocationView.swift in Sources */,
+				401B53BA2CD31529005867AB /* SearchLocationModel.swift in Sources */,
+				402F86462CD30707000B4240 /* TransportationModel.swift in Sources */,
+				401B53B02CD31519005867AB /* EditPointOfInterestView.swift in Sources */,
+				401B53B92CD31529005867AB /* MapView.swift in Sources */,
+				402F86122CD306D3000B4240 /* ContentView.swift in Sources */,
+				402F86412CD30707000B4240 /* DiningLocationModel.swift in Sources */,
+				401B538A2CD314BF005867AB /* AddDiningLocationView.swift in Sources */,
+				402F86432CD30707000B4240 /* PointOfInterestModel.swift in Sources */,
+				401B53A12CD31500005867AB /* EventView.swift in Sources */,
+				401B538C2CD314BF005867AB /* AddPointOfInterestView.swift in Sources */,
+				401B53AD2CD31519005867AB /* EditActivityView.swift in Sources */,
+				401B53932CD314DE005867AB /* StreetViewImage.swift in Sources */,
+				401B53A22CD31500005867AB /* PointOfInterestView.swift in Sources */,
+				402F86402CD30707000B4240 /* ActivityModel.swift in Sources */,
+				401B53942CD314DE005867AB /* StreetViewImageData.swift in Sources */,
+				401B53AF2CD31519005867AB /* EditEventView.swift in Sources */,
+				401B53B82CD31529005867AB /* LocationSelectionView.swift in Sources */,
+				402F86102CD306D3000B4240 /* Trip_Planner_2_0App.swift in Sources */,
+				401B539E2CD31500005867AB /* AccommodationView.swift in Sources */,
+				401B538E2CD314BF005867AB /* AddTripView.swift in Sources */,
+				401B538B2CD314BF005867AB /* AddEventView.swift in Sources */,
+				401B53AC2CD31519005867AB /* EditAccommodationView.swift in Sources */,
+				401B53892CD314BF005867AB /* AddActivityView.swift in Sources */,
+				401B53B12CD31519005867AB /* EditTransportationView.swift in Sources */,
+				401B539F2CD31500005867AB /* ActivityView.swift in Sources */,
+				401B53A32CD31500005867AB /* TransportationView.swift in Sources */,
+				402F86422CD30707000B4240 /* EventModel.swift in Sources */,
+				401B53952CD314DE005867AB /* StreetViewService.swift in Sources */,
+				401B538D2CD314BF005867AB /* AddTransportationView.swift in Sources */,
+				402F863F2CD30707000B4240 /* AccommodationModel.swift in Sources */,
+				401B53A42CD31500005867AB /* TripView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		402F86182CD306D4000B4240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		402F86192CD306D4000B4240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		402F861B2CD306D4000B4240 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trip_Planner_2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE335.Trip-Planner-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		402F861C2CD306D4000B4240 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trip_Planner_2.0/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "CSE335.Trip-Planner-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		402F86072CD306D3000B4240 /* Build configuration list for PBXProject "Trip_Planner_2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F86182CD306D4000B4240 /* Debug */,
+				402F86192CD306D4000B4240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		402F861A2CD306D4000B4240 /* Build configuration list for PBXNativeTarget "Trip_Planner_2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402F861B2CD306D4000B4240 /* Debug */,
+				402F861C2CD306D4000B4240 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 402F86042CD306D3000B4240 /* Project object */;
+}
